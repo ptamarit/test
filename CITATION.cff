@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 authors:
-  - family-names: Fam
-    given-names: Giv
-    orcid: https://orcid.org/1234-5678-9101-1121
+  - family-names: Tamarit
+    given-names: Pablo
+    orcid: https://orcid.org/0009-0002-0815-5085
 title: "My Research Software"
 version: 2.0.4
