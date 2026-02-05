@@ -16,7 +16,7 @@ jobs:
           fetch-depth: 0
 
       - name: Run resqui action
-        uses: EVERSE-ResearchSoftware/QualityPipelines@main
+        uses: EVERSE-ResearchSoftware/QualityPipelines@demo
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           dashverse_token: ${{ secrets.DASHVERSE_TOKEN }}
