@@ -1,0 +1,14 @@
+name: Stale
+on:
+  schedule:
+    - cron: "30 1 * * *"
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v10
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          days-before-stale: 0
+          days-before-close: 0
+          close-issue-message: "This is a link https://example.com/test in a message."
